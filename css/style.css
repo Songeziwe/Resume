@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: Arial;
+}
+
+.subtitle {
+  font-family: "Roboto Condensed";
+}
+
+.content-wrapper {
+  background-color: rgb(213, 230, 173);
+  width: 900px;
+  margin: 8px auto;
+  padding: 8px;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+}
+
+.personal-image > img {
+  height: 200px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+
+.bottom-content {
+  display: flex;
+}
+
+.bottom-content > .left-content {
+  width: 50%;
+  margin-right: 8px;
+}
+.right-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+}
